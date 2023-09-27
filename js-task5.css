@@ -1,0 +1,7 @@
+
+label { display: inline-block; width: 100px; text-align: right; }
+input { border-width: 2px; }
+#msg { vertical-align: top; height: 80px; }
+span { margin-left: 15px; color: red }
+button { margin-left: 100px }
+

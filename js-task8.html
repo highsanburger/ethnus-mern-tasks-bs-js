@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JS Task-8 </title>
+  <meta charset="UTF-8">
+  <link href="js-task8.css" rel="stylesheet">
+  <script defer src="js-task8.js"></script>
+</head>
+
+<body>
+  <h1 style="margin-left: 100px; color: blue;">Registration Form</h1>
+  <form id="form">
+
+    <label for="fname">First Name</label> <input type="text" name="fname" id="fname">
+    <span id="errorFname"></span> <br><br>
+
+    <label for="lname">Last Name</label> <input type="text" name="lname" id="lname">
+    <span id="errorLname"></span> <br><br>
+
+    <label for="mail">Email</label> <input type="email" name="mail" id="mail">
+    <span id="errorMail"></span> <br><br>
+
+    <label for="pass">Password</label> <input type="password" name="pass" id="pass">
+    <span id="errorPass"></span> <br><br>
+
+    <label for="repass">Re-enter Password</label> <input type="password" name="repass" id="repass">
+    <span id="errorRepass"></span> <br><br>
+
+    <div>
+      <div style="display: inline-block;">
+        <label for="gender">Gender</label>
+      </div>
+      <div style="display: inline-block; vertical-align: middle;">
+        <input type="radio" id="male" name="gender" value="male">
+        <label class="or" for="male">Male</label> <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label class="or" for="female">Female</label>
+      </div>
+    </div>
+
+
+    <label for="age">Age</label> <input type="number" name="age" id="age">
+    <span id="errorAge"></span> <br><br>
+
+    <label for="pno">Phone Number</label> <input type="number" name="pno" id="pno">
+    <span id="errorPno"></span> <br><br>
+
+    <label for="addr">Address</label>
+
+    <div style="display: inline-block; vertical-align: middle;">
+      <input type="text" name="addr" id="addr">
+      <span id="errorAddr"></span> <br><br>
+    </div> <br>
+
+    <label for="state">State</label> <input type="text" name="state" id="state">
+    <span id="errorState"></span> <br><br>
+
+    <label>Country</label>
+
+    <select>
+      <option>Choose your country</option>
+      <option>India</option>
+      <option>USA</option>
+      <option>China</option>
+    </select>
+    <br><br>
+
+    <label style="width: 120px">Languages known</label>
+
+    <input type="checkbox" id="english" name="languages[]" value="English">
+    <label class="or" for="english">English</label>
+
+    <input type="checkbox" id="kannada" name="languages[]" value="Kannada">
+    <label class="or" for="kannada">Kannada</label>
+
+    <input type="checkbox" id="hindi" name="languages[]" value="Hindi">
+    <label class="or" for="hindi">Hindi</label>
+
+    <input type="checkbox" id="telugu" name="languages[]" value="Telugu">
+    <label class="or" for="telugu">Telugu</label>
+    <br><br>
+
+    <div style="text-align: left" colspan="2">
+
+      <input type="checkbox" name="declare" value="">
+      <label class="or2" for="declare">Hereby I declare all the given details are true</label>
+    </div>
+    <br><br>
+
+    <div style="margin-left: 400px;">
+      Log in to <a href="https://ethnus.com/">Ethnus</a> website
+    </div>
+
+
+    <button type="submit" id="submit">Register</button>
+
+  </form>
+
+
+</body>
+
+</html>

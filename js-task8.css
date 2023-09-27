@@ -1,0 +1,10 @@
+
+label { display: inline-block; width: 100px; text-align: right; }
+input { border-width: 2px; }
+#addr { vertical-align: top; height: 80px; }
+span { margin-left: 15px; color: red }
+button { margin-left: 100px }
+.or { display: inline-block; width: 70px; text-align: left; vertical-align: middle; }
+.or2 { display: inline-block; width: 700px; text-align: left; vertical-align: middle; }
+#submit {background-color: red; border-radius: 10px; padding: 5px; border-width: 3px; color: white;}
+body {  background: radial-gradient( 500px 400px at 200px top, yellow, pink);}

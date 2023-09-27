@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JS Task-4</title>
+  <meta charset="UTF-8">
+  <link href="" rel="stylesheet">
+</head>
+
+<body>
+  <button type="button" id="date">show date</button><br>
+  <div id="resDate"></div><br>
+  <button type="button" id="time">show Time</button><br>
+  <div id="resTime"></div><br>
+
+  <script>
+
+    document.getElementById("date").onclick = function () {
+      const d = new Date();
+      const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      let day = String(d.getDate());
+      let month = String(months[d.getMonth()]);
+      let year = String(d.getFullYear());
+      res = day + '/' + month + '/' + year;
+      console.log(res)
+      document.getElementById("resDate").innerHTML = res;
+    }
+
+    document.getElementById("time").onclick = function () {
+      document.getElementById("resTime").innerHTML = Date();
+    }
+
+  </script>
+
+
+</body>
+
+</html>
